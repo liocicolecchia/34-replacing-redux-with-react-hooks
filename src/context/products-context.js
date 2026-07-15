@@ -4,7 +4,7 @@ export const ProductsContext = createContext({
   products: [],
 });
 
-export default function ContextProvider({ children }) {
+export default function ProductsProvider({ children }) {
   const [productsList, setProductsList] = useState([
     {
       id: "p1",
